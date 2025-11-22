@@ -5,14 +5,18 @@
       zackhe.uk
     </title>
     <meta name="title" property="og:title"       content="zackhe.uk" />
-    <meta name="description" property="og:description" content="A general-purpose website that also doubles as the homepage of Zack." />
+    <meta name="description" property="og:description" content="A informational website that also doubles as the homepage of Zack." />
     <meta property="og:type" content="website" /> 
     <meta property="og:url" content="https://zackhe.uk" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
       html, body {
         overflow: hidden;
         height: 100%;
         margin: 0px;
+        font-family: "Arial", "Roboto";
       }
       
       .titleCont {
@@ -25,7 +29,7 @@
       .title {
         font-size: 32pt;
         display: block;
-        animation-duration: 100ms;
+        animation-duration: 70ms;
         animation-name: title-anim;
         animation-iteration-count: infinite;
         animation-direction: alternate;
@@ -46,12 +50,12 @@
       }
       @keyframes title-anim {
         from {
-          font-weight: 700 !important;
+          font-weight: 300;
           scale: 100% 1;
         }
       
         to {
-          font-weight: 900 !important;
+          font-weight: 900;
           scale: 96% 1;
         }
       }
